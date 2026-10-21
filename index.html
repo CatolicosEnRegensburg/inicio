@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Comunidad Católica en Lengua Española en Regensburg. Fe, pastoral, comunidad y recursos en español y alemán."
+    />
+    <title>Comunidad Católica Regensburg</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand-wrap">
+          <div class="brand-mark" aria-hidden="true">
+            <span class="brand-cross">✚</span>
+          </div>
+          <div>
+            <div class="eyebrow" data-i18n="brandEyebrow">Comunidad Católica</div>
+            <h2 data-i18n="brandTitle">Regensburg</h2>
+          </div>
+        </div>
+
+        <nav class="nav-links" aria-label="Navegación principal">
+          <a href="#inicio" data-i18n="navInicio">Inicio</a>
+          <a href="#mision" data-i18n="navMision">Misión</a>
+          <a href="#valores" data-i18n="navValores">Valores</a>
+          <a href="#documentos" data-i18n="navDocumentos">Documentos</a>
+        </nav>
+
+        <div class="lang-switch" aria-label="Idioma" role="group">
+          <button class="lang-btn is-active" type="button" data-lang="es" aria-label="Español">
+            <span aria-hidden="true">🇪🇸</span>
+            <span class="lang-label">ES</span>
+          </button>
+          <button class="lang-btn" type="button" data-lang="de" aria-label="Deutsch">
+            <span aria-hidden="true">🇩🇪</span>
+            <span class="lang-label">DE</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow accent" data-i18n="eyebrow">Comunidad en lengua española</p>
+            <h1 data-i18n="heroTitle">Un espacio de fe, identidad y oración en Regensburg</h1>
+            <p class="lead" data-i18n="heroText">
+              Reunimos a la comunidad católica de habla hispana con un enfoque cercano,
+              pastoral y formativo, para fortalecer la fe, la cultura y el sentido de pertenencia.
+            </p>
+
+            <div class="cta-row">
+              <a href="#documentos" class="button primary" data-i18n="ctaPrimary">Ver documentos</a>
+              <a
+                href="Hojita_Dominical/2026-09-20/2026-09-20_Misa-Dominical_CCLE.pdf"
+                class="button secondary"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="ctaSecondary"
+              >
+                Ver Hojita Dominical
+              </a>
+            </div>
+
+            <ul class="mini-stats" aria-label="Estadísticas de la comunidad">
+              <li>
+                <strong>2026</strong>
+                <span data-i18n="statOne">Año pastoral</span>
+              </li>
+              <li>
+                <strong>PDF</strong>
+                <span data-i18n="statTwo">Hojita Dominical</span>
+              </li>
+              <li>
+                <strong>ES</strong>
+                <span data-i18n="statThree">Comunidad</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-visual">
+            <div class="visual-shell">
+              <img
+                src="Imagen_Corporativa/Fuentes_Tematicas_Corporativas_Cris.jpg"
+                alt="Imágenes de la comunidad católica en Regensburg"
+              />
+            </div>
+
+            <aside class="pdf-panel" aria-label="Enlace a la Hojita Dominical">
+              <p class="eyebrow accent" data-i18n="pdfEyebrow">Hojita Dominical</p>
+              <h3 data-i18n="pdfTitle">Misa dominical</h3>
+              <p data-i18n="pdfText">
+                Consulta la celebración semanal de la comunidad en lengua española.
+              </p>
+              <a
+                href="Hojita_Dominical/2026-09-20/2026-09-20_Misa-Dominical_CCLE.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="pdfLink"
+              >
+                Abrir PDF
+              </a>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="mision">
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="missionLabel">Misión</p>
+            <h2 data-i18n="missionTitle">Una comunidad de fe visible y cercana</h2>
+          </div>
+
+          <div class="mission-grid">
+            <article class="feature-card">
+              <div class="feature-icon">01</div>
+              <h3 data-i18n="featureOneTitle">Pastoral</h3>
+              <p data-i18n="featureOneText">
+                Acompañamos a familias, jóvenes y fieles con una escucha cercana y una atención espiritual concreta.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon">02</div>
+              <h3 data-i18n="featureTwoTitle">Formación</h3>
+              <p data-i18n="featureTwoText">
+                Promovemos la doctrina, la oración y la reflexión para fortalecer la identidad católica en la vida diaria.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon">03</div>
+              <h3 data-i18n="featureThreeTitle">Comunión</h3>
+              <p data-i18n="featureThreeText">
+                Crecemos juntos en la celebración, la caridad y el servicio al prójimo en un ambiente acogedor.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="valores">
+        <div class="container values-grid">
+          <div class="values-copy">
+            <p class="eyebrow accent" data-i18n="valuesLabel">Valores</p>
+            <h2 data-i18n="valuesTitle">Principios que orientan nuestra presencia</h2>
+            <p data-i18n="valuesText">
+              Nuestra comunidad vive la fe desde la escucha, la caridad, la verdad y la esperanza, buscando ser un lugar de encuentro, oración y pertenencia para todos.
+            </p>
+          </div>
+
+          <div class="value-stack">
+            <article class="value-item">
+              <div class="value-dot" aria-hidden="true"></div>
+              <div>
+                <h3 data-i18n="valueOneTitle">Fe</h3>
+                <p data-i18n="valueOneText">Testimonio vivo del Evangelio y la doctrina católica en la vida cotidiana.</p>
+              </div>
+            </article>
+
+            <article class="value-item">
+              <div class="value-dot" aria-hidden="true"></div>
+              <div>
+                <h3 data-i18n="valueTwoTitle">Caridad</h3>
+                <p data-i18n="valueTwoText">Atención mutua, servicio y ánimo concreto para quienes lo necesitan.</p>
+              </div>
+            </article>
+
+            <article class="value-item">
+              <div class="value-dot" aria-hidden="true"></div>
+              <div>
+                <h3 data-i18n="valueThreeTitle">Unidad</h3>
+                <p data-i18n="valueThreeText">Unión en la diversidad para fortalecer la comunidad y la misión común.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="documentos">
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="resourcesLabel">Recursos</p>
+            <h2 data-i18n="resourcesTitle">Hojita Dominical y materiales de la comunidad</h2>
+          </div>
+
+          <div class="doc-grid">
+            <article class="document-card featured">
+              <div class="doc-label">PDF</div>
+              <h3 data-i18n="docOneTitle">Hojita Dominical</h3>
+              <p data-i18n="docOneText">
+                Consulta la misa del domingo y la reflexión semanal para acompañar la vida litúrgica de la comunidad.
+              </p>
+              <a
+                href="Hojita_Dominical/2026-09-20/2026-09-20_Misa-Dominical_CCLE.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="docOneLink"
+              >
+                Abrir el PDF
+              </a>
+            </article>
+
+            <article class="document-card">
+              <div class="doc-label" data-i18n="docTwoBadge">Comunidad</div>
+              <h3 data-i18n="docTwoTitle">Oración y encuentro</h3>
+              <p data-i18n="docTwoText">
+                Un espacio para compartir la fe, la celebración y la vida en comunidad desde la lengua española.
+              </p>
+            </article>
+
+            <article class="document-card">
+              <div class="doc-label" data-i18n="docThreeBadge">Pastoral</div>
+              <h3 data-i18n="docThreeTitle">Formación y acompañamiento</h3>
+              <p data-i18n="docThreeText">
+                Información, catequesis y apoyo espiritual para vivir la identidad católica con sentido y esperanza.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-row">
+        <div>
+          <p class="eyebrow" data-i18n="footerEyebrow">Comunidad</p>
+          <h3 data-i18n="footerTitle">Comunidad Católica de habla hispana</h3>
+        </div>
+        <p data-i18n="footerText">Regensburg • Fe • Comunión • Esperanza</p>
+      </div>
+    </footer>
+
+    <script>
+      const translations = {
+        es: {
+          brandEyebrow: 'Comunidad Católica',
+          brandTitle: 'Regensburg',
+          navInicio: 'Inicio',
+          navMision: 'Misión',
+          navValores: 'Valores',
+          navDocumentos: 'Documentos',
+          eyebrow: 'Comunidad en lengua española',
+          heroTitle: 'Un espacio de fe, identidad y oración en Regensburg',
+          heroText:
+            'Reunimos a la comunidad católica de habla hispana con un enfoque cercano, pastoral y formativo, para fortalecer la fe, la cultura y el sentido de pertenencia.',
+          ctaPrimary: 'Ver documentos',
+          ctaSecondary: 'Ver Hojita Dominical',
+          statOne: 'Año pastoral',
+          statTwo: 'Hojita Dominical',
+          statThree: 'Comunidad',
+          pdfEyebrow: 'Hojita Dominical',
+          pdfTitle: 'Misa dominical',
+          pdfText: 'Consulta la celebración semanal de la comunidad en lengua española.',
+          pdfLink: 'Abrir PDF',
+          missionLabel: 'Misión',
+          missionTitle: 'Una comunidad de fe visible y cercana',
+          featureOneTitle: 'Pastoral',
+          featureOneText: 'Acompañamos a familias, jóvenes y fieles con una escucha cercana y una atención espiritual concreta.',
+          featureTwoTitle: 'Formación',
+          featureTwoText: 'Promovemos la doctrina, la oración y la reflexión para fortalecer la identidad católica en la vida diaria.',
+          featureThreeTitle: 'Comunión',
+          featureThreeText: 'Crecemos juntos en la celebración, la caridad y el servicio al prójimo en un ambiente acogedor.',
+          valuesLabel: 'Valores',
+          valuesTitle: 'Principios que orientan nuestra presencia',
+          valuesText:
+            'Nuestra comunidad vive la fe desde la escucha, la caridad, la verdad y la esperanza, buscando ser un lugar de encuentro, oración y pertenencia para todos.',
+          valueOneTitle: 'Fe',
+          valueOneText: 'Testimonio vivo del Evangelio y la doctrina católica en la vida cotidiana.',
+          valueTwoTitle: 'Caridad',
+          valueTwoText: 'Atención mutua, servicio y ánimo concreto para quienes lo necesitan.',
+          valueThreeTitle: 'Unidad',
+          valueThreeText: 'Unión en la diversidad para fortalecer la comunidad y la misión común.',
+          resourcesLabel: 'Recursos',
+          resourcesTitle: 'Hojita Dominical y materiales de la comunidad',
+          docOneTitle: 'Hojita Dominical',
+          docOneText: 'Consulta la misa del domingo y la reflexión semanal para acompañar la vida litúrgica de la comunidad.',
+          docOneLink: 'Abrir el PDF',
+          docTwoBadge: 'Comunidad',
+          docTwoTitle: 'Oración y encuentro',
+          docTwoText: 'Un espacio para compartir la fe, la celebración y la vida en comunidad desde la lengua española.',
+          docThreeBadge: 'Pastoral',
+          docThreeTitle: 'Formación y acompañamiento',
+          docThreeText: 'Información, catequesis y apoyo espiritual para vivir la identidad católica con sentido y esperanza.',
+          footerEyebrow: 'Comunidad',
+          footerTitle: 'Comunidad Católica de habla hispana',
+          footerText: 'Regensburg • Fe • Comunión • Esperanza'
+        },
+        de: {
+          brandEyebrow: 'Katholische Gemeinschaft',
+          brandTitle: 'Regensburg',
+          navInicio: 'Start',
+          navMision: 'Mission',
+          navValores: 'Werte',
+          navDocumentos: 'Dokumente',
+          eyebrow: 'Gemeinschaft in spanischer Sprache',
+          heroTitle: 'Ein Ort des Glaubens, der Identität und des Gebets in Regensburg',
+          heroText:
+            'Wir vereinen die katholische Gemeinschaft mit spanischer Sprache in einem nahen, pastoralen und bildenden Umfeld, um den Glauben, die Kultur und das Zugehörigkeitsgefühl zu stärken.',
+          ctaPrimary: 'Dokumente anzeigen',
+          ctaSecondary: 'Hojita Dominical anzeigen',
+          statOne: 'Pastoraljahr',
+          statTwo: 'Hojita Dominical',
+          statThree: 'Gemeinschaft',
+          pdfEyebrow: 'Hojita Dominical',
+          pdfTitle: 'Sonntagsmesse',
+          pdfText: 'Informieren Sie sich über die wöchentliche Feier der Gemeinschaft in spanischer Sprache.',
+          pdfLink: 'PDF öffnen',
+          missionLabel: 'Mission',
+          missionTitle: 'Eine sichtbare und nahe Glaubensgemeinschaft',
+          featureOneTitle: 'Pastoral',
+          featureOneText: 'Wir begleiten Familien, Jugendliche und Gläubige mit einer nahen und konkreten geistlichen Begleitung.',
+          featureTwoTitle: 'Ausbildung',
+          featureTwoText: 'Wir fördern Lehre, Gebet und Reflexion, um die katholische Identität im Alltag zu stärken.',
+          featureThreeTitle: 'Kommunion',
+          featureThreeText: 'Wir wachsen gemeinsam durch Feier, Nächstenliebe und Dienst am Mitmenschen in einer gastfreundlichen Atmosphäre.',
+          valuesLabel: 'Werte',
+          valuesTitle: 'Grundsätze, die unsere Präsenz leiten',
+          valuesText:
+            'Unsere Gemeinschaft lebt den Glauben aus Zuhören, Nächstenliebe, Wahrheit und Hoffnung und will ein Ort der Begegnung, des Gebets und der Zugehörigkeit für alle sein.',
+          valueOneTitle: 'Glaube',
+          valueOneText: 'Lebendiges Zeugnis des Evangeliums und der katholischen Lehre im Alltag.',
+          valueTwoTitle: 'Nächstenliebe',
+          valueTwoText: 'Gegenseitige Aufmerksamkeit, Dienst und konkreter Zuspruch für diejenigen, die Hilfe brauchen.',
+          valueThreeTitle: 'Einheit',
+          valueThreeText: 'Einheit in der Vielfalt, um Gemeinschaft und gemeinsame Mission zu stärken.',
+          resourcesLabel: 'Ressourcen',
+          resourcesTitle: 'Hojita Dominical und Materialien der Gemeinschaft',
+          docOneTitle: 'Hojita Dominical',
+          docOneText: 'Informieren Sie sich über die Sonntagsmesse und die wöchentliche Reflexion, um das liturgische Leben der Gemeinschaft zu begleiten.',
+          docOneLink: 'PDF öffnen',
+          docTwoBadge: 'Gemeinschaft',
+          docTwoTitle: 'Gebet und Begegnung',
+          docTwoText: 'Ein Raum zum Teilen des Glaubens, der Feier und des Lebens in Gemeinschaft in spanischer Sprache.',
+          docThreeBadge: 'Pastoral',
+          docThreeTitle: 'Ausbildung und Begleitung',
+          docThreeText: 'Informationen, Katechese und geistliche Unterstützung, um die katholische Identität mit Sinn und Hoffnung zu leben.',
+          footerEyebrow: 'Gemeinschaft',
+          footerTitle: 'Katholische Gemeinschaft in spanischer Sprache',
+          footerText: 'Regensburg • Glaube • Kommunion • Hoffnung'
+        }
+      };
+
+      const elements = document.querySelectorAll('[data-i18n]');
+      const buttons = document.querySelectorAll('.lang-btn');
+
+      function setLanguage(lang) {
+        const selected = translations[lang] || translations.es;
+
+        elements.forEach((element) => {
+          const key = element.dataset.i18n;
+          if (selected[key]) {
+            element.textContent = selected[key];
+          }
+        });
+
+        buttons.forEach((button) => {
+          const active = button.dataset.lang === lang;
+          button.classList.toggle('is-active', active);
+          button.setAttribute('aria-pressed', String(active));
+        });
+
+        document.documentElement.lang = lang === 'de' ? 'de' : 'es';
+      }
+
+      buttons.forEach((button) => {
+        button.addEventListener('click', () => setLanguage(button.dataset.lang));
+      });
+
+      setLanguage('es');
+    </script>
+  </body>
+</html>
